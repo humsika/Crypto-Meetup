@@ -29,3 +29,30 @@ Ensure Python 3.x is installed on your machine. Then, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourgithubusername/crypto-meetup.git
+   
+2. Navigate to the project directory:
+   ```bash
+   cd crypto-meetup
+   
+3. Install required Python packages:
+   ```bash
+   pip install -r requirements.txt
+
+## Running the Application
+To launch the application:
+1. Start the server to listen for incoming connections:
+   ```bash
+   python server.py
+
+2. Open another terminal window and start a client:
+   ```bash
+   python client.py
+
+
+Repeat step 2 to connect more clients as needed.
+
+## Usage
+After starting the server and client(s):
+
+Each client will be prompted to enter their ID, which triggers the OTP authentication.
+Upon successful verification, users can start sending encrypted messages.
