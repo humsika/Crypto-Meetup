@@ -48,7 +48,6 @@ To launch the application:
    ```bash
    python client.py
 
-
 Repeat step 2 to connect more clients as needed.
 
 ## Usage
